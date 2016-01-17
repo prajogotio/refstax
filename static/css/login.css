@@ -1,0 +1,41 @@
+* {
+	box-sizing:border-box;
+	font-family:helvetica;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+.main-body {
+	min-width:550px;
+}
+
+.main-title {
+	text-align: center;
+	font-size:33px;
+	margin-bottom:20px;
+}
+
+.login-box {
+	position:relative;
+	width:30%;
+	margin-left:35%;
+	font-size:18px;
+	padding-top:120px;
+}
+
+.login-box input {
+	margin-top:4px;
+	width:100%;
+	font-size:18px;
+	padding:4px;
+	border:1px solid rgba(0,0,0,0.2);
+}
+
+.login-box input[type="submit"] {
+	margin-top:8px;
+	border:1px solid rgba(0,0,0,0.2);
+	background: #eee
+}

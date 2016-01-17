@@ -1,0 +1,32 @@
+<html>
+<head>
+	<script src="{{ url_for('static', filename='js/jquery-1.11.3.js') }}"></script>
+	<link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet" type="text/css">
+	<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</head>
+<body>
+	<div class="logo">
+		.refstax
+	</div>
+	<div class="menu">
+		<div onclick="location.href='/logout'">logout</div>
+		<div>browse</div>
+	</div>
+	<div class="load-box" id="load-box">Loading</div>
+	<div class="main-body">
+		<div class="main-input-wrapper">
+			<input id="add-url" class="main-input float-left" type="text" placeholder="url to article or video or blog">
+			<input id="add-submit" class="main-submit float-left" type="submit" value="add">
+			<div class="clear-fix"></div>
+		</div>
+		<div id="stack">
+			<!-- <div class="stack-item">
+				<div class="stack-item-img float-left">Image</div>
+				<div class="stack-item-info float-left">Title Url Tags Close</div>
+				<div class="clear-fix"></div>
+			</div> -->
+		</div>
+		<div class="end-of-stack">end-of-stack</div>
+	</div>
+</body>
+</html>
